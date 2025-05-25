@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+    gap: 4px;
+    border: 1px solid #05213d;
+    border-radius: 4px; 
+    padding: 12px;
+  }
+  
+  .field {
+    flex-grow: 1;
+    padding: 8px;
+    font: inherit;
+  }
+  
+  .field:focus {
+    outline-color: #1976d2;
+  }
+  
+  .fieldsWrapper {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }

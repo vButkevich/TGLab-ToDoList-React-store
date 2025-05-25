@@ -4,12 +4,7 @@ import {
   addTaskAsync,
   deleteTaskAsync,
   toggleTaskCompletedAsync,
-} from "../dataProviders/taskDataProvider";
-// import {
-//   fetchTasksAsync,
-//   addTaskAsync,
-//   deleteTaskAsync,
-//   toggleTaskCompletedAsync,
+} from "../dataProviders/localStorageDataProvider";
 // } from "../dataProviders/mokapiDataProvider";
 
 export const fetchTasks = createAsyncThunk(
